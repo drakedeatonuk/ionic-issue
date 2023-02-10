@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../../dist/out-tsc",
+    "types": [],
+    "target": "ES2017",
+    "strictNullChecks": true
+  },
+  "files": [
+    "app/src/main.ts",
+    "app/src/polyfills.ts"
+  ],
+  "include": [
+    "app/src/**/*.d.ts"
+  ],
+  "exclude": [
+    "**/*.test.ts",
+    "**/*.spec.ts"
+  ]
+}
