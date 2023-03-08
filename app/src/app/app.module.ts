@@ -8,16 +8,10 @@ import { IonicModule, IonicRouteStrategy } from "@ionic/angular";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
-import { HomePageComponent } from "./ui/pages/home/home-page.component";
-import { ExamplePageComponent } from "./ui/pages/tab/children/example-page/example-page.component";
-import { TabPageComponent } from "./ui/pages/tab/component/tab-page.component";
 
 @NgModule({
   declarations: [
     AppComponent,
-    TabPageComponent,
-    HomePageComponent,
-    ExamplePageComponent,
   ],
   entryComponents: [],
   imports: [
