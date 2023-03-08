@@ -28,7 +28,7 @@
             "index": "app/src/index.html",
             "main": "app/src/main.ts",
             "polyfills": "app/src/polyfills.ts",
-            "tsConfig": "tsconfig.app.json",
+            "tsConfig": "tsconfig.json",
             "inlineStyleLanguage": "scss",
             "assets": [
               {

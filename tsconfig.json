@@ -1,61 +1,12 @@
 {
-  "files": [],
-  "include": [],
-  "references": [
-    {
-      "path": "./tsconfig.app.json"
-    },
-    {
-      "path": "./tsconfig.spec.json"
-    },
-    {
-      "path": "./tsconfig.editor.json"
-    }
+  "files": [
+    "app/src/main.ts",
+    "app/src/polyfills.ts"
   ],
-  "baseUrl": "src",
+  "include": [],
   "compilerOptions": {
-    "noErrorTruncation": true,
-    "rootDir": ".",
-    "sourceMap": true,
-    "esModuleInterop": true,
-    "moduleResolution": "node",
-    "checkJs": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "resolveJsonModule": true,
-    "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "skipLibCheck": true,
-    "types": [
-      "node"
-    ],
-    "skipDefaultLibCheck": true,
-    "target": "es2015",
-    "module": "esnext",
-    "lib": [
-      "es5",
-      "es6",
-      "es2017",
-      "dom",
-      "dom.iterable"
-    ],
-    "baseUrl": ".",
-    "paths": {},
-    "allowJs": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "noImplicitOverride": true,
-    "noPropertyAccessFromIndexSignature": false,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "strictPropertyInitialization": false
   },
-  "angularCompilerOptions": {
-    "strictInjectionParameters": true,
-    "strictInputAccessModifiers": true,
-    "strictTemplates": true
-  },
-  "compileOnSave": false,
   "exclude": [
     "node_modules",
     "tmp"
