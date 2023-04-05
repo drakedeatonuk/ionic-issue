@@ -1,15 +1,11 @@
 # code reproduction
 
-Issue:
-
-to reproduce the issue:
+to run the project:
 1. install deps
 2. run:
 ```
-npx ng serve app --port 4200 --host localhost       
+npx ng build app         
+npx cap sync
+npx cap open ios   
 ```
-3. navigate to http://localhost:4200/home/tab
-4. click the 'Page Link' text
-
-
-
+3. run the app on an iphone
