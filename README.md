@@ -8,4 +8,4 @@ npx ng build app
 npx cap sync
 npx cap open ios   
 ```
-3. run the app on an iphone
+3. run the app on the simulator via xcode
